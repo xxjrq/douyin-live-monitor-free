@@ -1,9 +1,11 @@
 name: douyin-live-monitor-free
 display_name: 免费抖音直播间监控
-version: 1.0.0
-description: 免费、免第三方 API Key，按间隔读取抖音公开直播间状态并生成时间快照。
+slug: douyin-live-monitor-free
+version: 1.0.1
+description: 免费、免第三方 API Key，通过已登录浏览器按间隔读取抖音公开直播间状态，生成时间快照和变化报告。
 category: data-analysis
 author: xxjrq
+repository: https://github.com/xxjrq/douyin-live-monitor-free
 tags:
   - douyin
   - live-monitor
@@ -11,6 +13,12 @@ tags:
   - easy-webbridge
   - free
   - no-api-key
+trigger_words:
+  - 抖音直播监控
+  - 抖音直播间状态
+  - 直播间开播提醒
+  - 抖音直播数据快照
+  - 多直播间监控
 license: MIT
 runtime:
   name: easy-webbridge
